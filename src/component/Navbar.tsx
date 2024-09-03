@@ -13,9 +13,9 @@ const Navbar = () => {
    <>
    <nav className=" w-1/6 flex items-center  m-7 justify-end">
      <div className=" hidden w-full md:flex  justify-between ">
-      <Link to={'/features'}>Features</Link>
-       <Link to={'/about'}>About </Link>
-       <Link to={'/signup'}>SignUp</Link>
+      <Link to='/features'>Features</Link>
+       <Link to='/about'>About </Link>
+       <Link to='/signup'>SignUp</Link>
      </div>
     <div>
       <button
@@ -29,9 +29,9 @@ const Navbar = () => {
    </nav>
       { isOpen &&(
         <div className='flex flex-col items-center basis-full'>
-        <Link to={'/features'}>Features</Link>
-        <Link to={'/about'}>About </Link>
-        <Link to={'/signup'}>SignUp</Link>
+        <Link to='/features'>Features</Link>
+        <Link to='/about'>About </Link>
+        <Link to='/signup'>SignUp</Link>
         </div>
        )}
        </>
